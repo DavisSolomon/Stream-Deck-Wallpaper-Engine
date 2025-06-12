@@ -59,8 +59,8 @@ Wallpaper Engine’s Workshop content is stored under this folder: [Steam path]\
 1. Open the Elgato Stream Deck software
 2. Drag a “System → Open” action onto a button
 3. In the **App / File** field:
-   → Browse and select `Wallpaper_Tool.exe` (from this folder)
-4. Add your Arguments after you have pasted your directory for the Wallpaper_Tool.exe
+   → Browse and select `Wallpaper Tool.exe` (from this folder)
+4. Add your Arguments after you have pasted your directory for the Wallpaper Tool.exe
 5. In the **Arguments** field, paste the path to your `project.json` wallpaper file
 
 Example: "C:\Users\tripp\Downloads\Wallpaper_Tool\Wallpaper Tool.exe" "Path\To\Wallpaper\Here.json" 0
@@ -80,7 +80,7 @@ You can make a Stream Deck button that plays a random wallpaper from your librar
 To do this:
 
 1. add the --random argument to your stream deck
-2. It will look something like this: "C:\Users\tripp\Downloads\Wallpaper_Tool\Wallpaper_Tool.exe" --random 0
+2. It will look something like this: "C:\Users\tripp\Downloads\Wallpaper_Tool\Wallpaper Tool.exe" --random 0
 
 💡 This will randomly pick one of the `project.json` files inside subfolders of the path.
 
@@ -104,7 +104,7 @@ If you do not add a argument for a monitor then it will fallback onto the monito
 📂 FILES INCLUDED IN THIS FOLDER:
 --------------------------------------------------------------
 
-- Wallpaper_Tool.exe      ← The wallpaper launcher
+- Wallpaper Tool.exe      ← The wallpaper launcher
 - config.txt            ← Holds your Wallpaper Engine path
 - README.txt            ← This instruction file
 
