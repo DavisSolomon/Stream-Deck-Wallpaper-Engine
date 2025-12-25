@@ -13,10 +13,10 @@ This gives you fast, customizable control without needing to open Wallpaper Engi
 🛠️ SETUP INSTRUCTIONS
 ---------------------------
 
-1️⃣ STEP 1: Edit the config.txt File
+1️⃣ STEP 1: Edit the config.json File
 
 Inside the folder you received, there is a file called:
-  config.txt
+  config.json
 
 Open it and change the first line to your **Wallpaper Engine executable path**.
 
@@ -26,7 +26,7 @@ Example:
 To find yours:
 - Open Steam
 - Right-click Wallpaper Engine → Manage → Browse local files
-- Copy the full path to wallpaper32.exe and paste it into `config.txt`
+- Copy the full path to wallpaper32.exe and paste it into `config.json`
 
 Make sure there are no extra "quotes" except the ones already there and only one path per line.
 
